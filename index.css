@@ -1,3 +1,19 @@
+#headertop {
+    display: inline;
+}
+
+
 #navigation {
     display: flex;
+    justify-content: flex-end;
+}
+
+#navigation div {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: black;
+    border: 2px solid;
 }

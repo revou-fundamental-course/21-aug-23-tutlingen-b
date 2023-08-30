@@ -43,7 +43,7 @@ li,a,button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: plum;
+    background-image: url(Assets/pink_cloud.jpg);
     height: 578px;
     
 }
@@ -70,9 +70,10 @@ h2 {
     
 }
 
-#flower {
+#pictwelcome img {
     width: 500px;
     height: 500px;
+    border-radius: 50%;
 }
 
 .course {

@@ -74,3 +74,8 @@ h2 {
     width: 500px;
     height: 500px;
 }
+
+.course {
+    background-color: violet;
+    height: 300px;
+}

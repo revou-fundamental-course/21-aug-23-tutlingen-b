@@ -8,20 +8,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
-#picture {
-    cursor: pointer;
-    margin-right: auto;
+li,a,button {
+    font-family: "high tower text";
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
 }
 
-#navigation div {
-    width: 100px;
-    height: 20px;
-    padding: 10px;
-    text-align: center;
-    font-size: 14sp;
-    color: black;
-    border: 2px solid;
+#navigation {
+    list-style: none;
+}
+
+#navigation li {
+    display: inline-block;
+    padding: 0px 10px;
 }

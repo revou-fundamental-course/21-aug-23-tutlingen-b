@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 #picture {
     height: 50px;
     width: 50px;
@@ -8,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 li,a,button {
@@ -26,4 +32,22 @@ li,a,button {
 #navigation li {
     display: inline-block;
     padding: 0px 10px;
+}
+
+.space {
+    background-color: white;
+    height: 5px;
+}
+
+.banner {
+    background-color: plum;
+    height: 578px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+
+h1 {
+    font-family: "high tower text";
+    color: white;
 }

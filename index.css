@@ -40,14 +40,37 @@ li,a,button {
 }
 
 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: plum;
     height: 578px;
-    padding-left: 30px;
-    padding-top: 30px;
     
 }
 
 h1 {
     font-family: "high tower text";
     color: white;
+}
+
+h2 {
+    font-family: "Century schoolbook";
+    color: black;
+}
+
+#welcome {
+    width: 50%;
+    padding-left: 100px;
+}
+
+#pictwelcome {
+    width: 50%;
+    padding-left: 200px;
+    
+    
+}
+
+#flower {
+    width: 500px;
+    height: 500px;
 }

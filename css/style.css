@@ -43,7 +43,7 @@ li,a,button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(Assets/pink_cloud.jpg);
+    background: url();
     height: 578px;
     
 }

@@ -43,7 +43,7 @@ li,a,button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(pink_cloud.jpg);
+    background-image: url(Assets/pink_cloud.jpg);
     height: 578px;
     
 }
@@ -113,7 +113,7 @@ h3 {
 
 .Profile {
     height: 1000px;
-    background-image: url(/Assets/arrangement.jpg);
+    background-image: url(Assets/pink_cloud.jpg);
 }
 
 .About {

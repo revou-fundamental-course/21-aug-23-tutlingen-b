@@ -34,26 +34,45 @@
                 <div class="wrapper">
                     <div class="coursetype">
                         <img src="Assets/Decorate.png">
-                        <p><h2>Decoration Class</h2></p>
+                        <p><h3>Decoration Class</h3></p>
                     </div>
                     <div class="coursetype">
                         <img src="Assets/arrangement.jpg">
-                        <p><h2>Arrangement Class</h2></p>
+                        <p><h3>Arrangement Class</h3></p>
                     </div>
                     <div class="coursetype">
                         <img src="Assets/photography.jpg">
-                        <p><h2>Photography Class</h2></p>
+                        <p><h3>Photography Class</h3></p>
                     </div>
                 </div>
             </div>
-
         </main>
-        <form>
-                <label for="name">Nama : </label>
-                <input id="name" type="text"/>
-                <br>
-                <label for="tanggal">Tanggal Lahir: </label>
-                <input id="tanggal" type="text"/>
-        </form>
+        <div class="message">
+            <h1>Message Us</h1>
+            <form name="message-form" onsubmit="return validateform()">
+                    <label for="name">Nama : </label>
+                    <input placeholder="Nama" type="text" name="full-name"/>
+                    <br/>
+                    <label for="tanggal">Tanggal Lahir : </label>
+                    <input type="date" name="birth-date"/>
+                    <br/>
+                    <label for="jenis">Jenis Kelamin :</label>
+                    <label for="male">Laki-laki</label>
+                    <input type="radio" id="male" name="gender" value="male"/>
+                    <label for="female">Perempuan</label>
+                    <input type="radio" id="female" name="gender" value="male"/>
+                    <br/>
+                    <label for="pesan">Pesan</label>
+                    <textarea placeholder="Pesan" name="messages"></textarea>
+                    <br/>
+                    <input type="submit" value="Submit"/>
+            </form>
+            <div>
+                <p>Nama: <span id="sender-full-name"></span></p>
+                <p>Tanggal Lahir: <span id="sender-birth-date"></span></p>
+                <p>Jenis Kelamin: <span id="sender-gender"></span></p>
+                <p>Pesan: <span id="sender-messages"></span></p>
+            </div>
+        </div>
     </body>
 </html>

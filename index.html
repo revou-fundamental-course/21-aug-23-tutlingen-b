@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <title>Potionberry Academy</title>
     </head>
     <body>
@@ -11,8 +11,8 @@
             <a href="https://revou.co"><img src="Assets/Revou_logo.png" id="picture"></a>
                 <nav>
                     <ul id="navigation">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Our Profile</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Our Profile</a></li>
                         <li><a href="">Achievement</a></li>
                         <li><a href="">Message Us</a></li>
                     </ul>
@@ -50,21 +50,20 @@
         <div class="message">
             <h1>Message Us</h1>
             <form name="message-form" onsubmit="return validateform()">
-                    <label for="name">Nama : </label>
-                    <input placeholder="Nama" type="text" name="full-name"/>
-                    <br/>
-                    <label for="tanggal">Tanggal Lahir : </label>
-                    <input type="date" name="birth-date"/>
-                    <br/>
-                    <label for="jenis">Jenis Kelamin :</label>
-                    <label for="male">Laki-laki</label>
+                    <label for="name">Nama : </label><br>
+                    <input placeholder="Nama" type="text" name="full-name"/><br>
+                    <br>
+                    <label for="tanggal">Tanggal Lahir : </label><br>
+                    <input type="date" name="birth-date"/><br>
+                    <br>
+                    <label for="jenis">Jenis Kelamin :</label><br>
                     <input type="radio" id="male" name="gender" value="male"/>
-                    <label for="female">Perempuan</label>
+                    <label for="male">Laki-laki</label>
                     <input type="radio" id="female" name="gender" value="male"/>
-                    <br/>
-                    <label for="pesan">Pesan</label>
-                    <textarea placeholder="Pesan" name="messages"></textarea>
-                    <br/>
+                    <label for="female">Perempuan</label><br>
+                    <br>
+                    <label for="pesan">Pesan</label><br>
+                    <textarea placeholder="Pesan" name="messages"></textarea><br>
                     <input type="submit" value="Submit"/>
             </form>
             <div>

@@ -110,3 +110,28 @@ h3 {
     padding-left: 100px;
     padding-top: 50px;
 }
+
+.Profile {
+    height: 1000px;
+    background-image: url(Assets/pink_cloud.jpg);
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: 3%;
+}
+
+.visionmission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

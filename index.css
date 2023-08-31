@@ -51,11 +51,13 @@ li,a,button {
 h1 {
     font-family: "high tower text";
     color: white;
+    font-size: 3vw;
 }
 
 h2 {
     font-family: "Century schoolbook";
     color: black;
+    font-size: 1.5vw;
 }
 
 #welcome {
@@ -64,15 +66,12 @@ h2 {
 }
 
 #pictwelcome {
-    width: 50%;
-    padding-left: 200px;
-    
-    
+    width: 40%; 
 }
 
 #pictwelcome img {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    max-width: 500px;
     border-radius: 50%;
 }
 
@@ -90,11 +89,13 @@ h2 {
 
 .coursetype {
     text-align: center;
+    margin-top: 3%;
+    width: 20%;
 }
 
 .coursetype img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
     border-radius: 50%;
-    margin: 50px;
+    
 }
